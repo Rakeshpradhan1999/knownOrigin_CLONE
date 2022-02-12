@@ -30,7 +30,9 @@
   width: 100%;
   height: 28rem;
 }
-
+.card-img-wrapper span {
+  width: 100%;
+}
 .card-btm {
   border: 1px solid #ededed;
 }

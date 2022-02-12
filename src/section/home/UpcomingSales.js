@@ -3,6 +3,7 @@ import Image3 from "../../assets/images/latestwork1.jpg";
 import Image2 from "../../assets/images/latestwork2.jpg";
 import Image1 from "../../assets/images/latestwork3.jpg";
 import User from "../../assets/images/user.jpg";
+import { NftCard } from "../../compnents";
 const UpcomingSales = () => {
   return (
     <div className="section-space">
@@ -10,29 +11,9 @@ const UpcomingSales = () => {
         <h4 className="font-serif text-3xl font-light">Upcoming sales</h4>
         <div className="grid md:grid-cols-3 gap-8 mt-4">
           {cardList.map((v, i) => (
-            <div className=" shadow-2xl" key={i}>
-              <div className=" w-full card-img-wrapper">
-                <img src={v.img} alt="" className="" />
-              </div>
-              <div className="p-4">
-                <div className="bg-white flex items-center justify-between text-black ">
-                  <p className="font-light">{v.title}</p>
-                  <p className="text-xs font-bold">{v.list}</p>
-                </div>
-                <div className="mt-4 grid grid-flow-col justify-start items-center gap-x-2">
-                  <div className="w-8 h-8 overflow-hidden rounded-full ">
-                    <img src={v.userImage} alt="" />
-                  </div>
-                  <p className="font-light text-base font-serif">
-                    {v.userName}
-                  </p>
-                </div>
-              </div>
-              <div className="p-4 card-btm font-medium">
-                <p>Price</p>
-                <p>Ξ {v.price}</p>
-              </div>
-            </div>
+            <React.Fragment key={i}>
+              <NftCard data={v} />
+            </React.Fragment>
           ))}
         </div>
         <div className="text-center mt-10">
