@@ -10,6 +10,8 @@ import Image3 from "../../assets/images/latestwork2.jpg";
 import User from "../../assets/images/user.jpg";
 import TabComponent from "./components/TabComponent";
 import NftCard from "../../compnents/nftcard";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 const Details = () => {
   return (
     <Layout>
@@ -19,7 +21,11 @@ const Details = () => {
           <div className="grid md:grid-cols-12 mt-10 gap-x-12">
             {/* RIGHT */}
             <div className=" md:col-span-8">
-              <img src={detailsImage} alt="" className="w-full" />
+              <LazyLoadImage
+                src={detailsImage}
+                effect="blur"
+                className="w-full"
+              />
               <div className="hidden md:block mt-40">
                 <h2 className="text-3xl font-serif font-thin ">
                   More by this artist
