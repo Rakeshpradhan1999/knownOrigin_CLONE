@@ -17,7 +17,7 @@ const EditForm = () => {
         Edit Profile
       </h2>
 
-      <div className="grid grid-cols-2 mt-10">
+      <div className="grid lg:grid-cols-2 mt-10">
         <form action="">
           <Input label="Username" required={true} />
           <div className=" bg-gray-200 grid grid-flow-col gap-x-20 my-8 p-2 items-center justify-center">
