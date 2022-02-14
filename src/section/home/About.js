@@ -7,19 +7,20 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h3 className=" text-5xl font-serif ">
-              Who are KnownOrigin and what are NFTs?
+              Who are Snifty and what are NFTs?
             </h3>
           </div>
           <div>
             <p className=" font-light">
-              KnownOrigin is one the world's first, and largest, NFT
-              Marketplaces, built on the Ethereum Blockchain. Allowing everyone
-              to discover, collect, buy, and sell Digital Art NFTs.
+              Snifty (pronounced S-NFT) is the world's first, and largest, NFT
+              Marketplace, built on the Binance Smart Chain Network. Allowing
+              everyone to discover, collect, buy, and sell Digital Art NFTs.
             </p>
             <p className="font-light my-4 ">
-              The KnownOrigin platform gives artists a place to create unique,
-              authentic, digital collectibles, in the form of NFTs. Blockchain
-              technology makes this new approach to digital ownership possible.
+              The Snifty NFT Marketplace is powered by the iNf4mation.com
+              platform and gives artists a place to create unique, authentic,
+              digital collectibles, in the form of NFTs. Blockchain technology
+              makes this new approach to digital ownership possible.
             </p>
             <ButtonOutline color="white">Explore Nfts</ButtonOutline>
           </div>

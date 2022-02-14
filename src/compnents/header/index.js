@@ -12,7 +12,7 @@ const Header = () => {
     <div className="bg-white shadow-md">
       <div className="container flex justify-between items-center">
         <Link to="/" className=" text-3xl font-light py-4 font-serif ">
-          KnownOrigin.
+          Snifty.
         </Link>
         <div className="md:grid grid-flow-col justify-start items-center hidden ">
           {linkList.map((v, i) => (

@@ -10,7 +10,19 @@ const Footer = () => {
                 <img src={Logo} alt="" />
               </div>
               <h5 className="font-serif font-light text-2xl mt-2">
-                KnownOrigin.
+                Snifty{" "}
+                <p className="inline text-sm">
+                  {" "}
+                  (powered by{" "}
+                  <a
+                    href="https://inf4mation.com/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    iNf4mation.com
+                  </a>
+                  )
+                </p>
               </h5>
               <p className="font-light text-gray-400 mb-10">
                 Discover and collect rare NFT art
@@ -22,7 +34,7 @@ const Footer = () => {
                 <input
                   type="text"
                   className="bg-transparent px-2 focus:outline-none text-dark-600"
-                  placeholder="arts@knownorigin.io"
+                  placeholder="arts@snifty.io"
                 />
                 <button className=" text-dark-600 p-2 px-4 border-l border-dark-600 rounded-r-md">
                   Subscribe
@@ -32,7 +44,7 @@ const Footer = () => {
                 className="font-serif text-gray-400 text-xs mt-10"
                 style={{ fontSize: "10px" }}
               >
-                KNOWNORIGIN LABS LTD (COMPANY NO. 13047869)
+                iNf4mation Ltd (Company Number: 227890)
               </p>
             </div>
           </div>
@@ -75,35 +87,35 @@ export default Footer;
 const followList = [
   {
     text: "Twitter",
-    link: "#",
+    link: "https://twitter.com/nf4mation",
   },
   {
-    text: "Discord",
-    link: "#",
+    text: "Facebook",
+    link: "https://www.facebook.com/iNf4mation/",
   },
   {
     text: "Instagram",
-    link: "#",
+    link: "https://www.instagram.com/iNf4mation.com_official",
   },
   {
-    text: "Reddit",
-    link: "#",
+    text: "BitCoinTalk",
+    link: "https://bit.ly/33WY85I",
   },
   {
-    text: "YouTube",
-    link: "#",
+    text: "Blog",
+    link: "https://news.inf4mation.com/",
   },
   {
     text: "Telegram",
-    link: "#",
+    link: "http://t.me/iNf4mation_chat",
   },
+  // {
+  //   text: "Medium",
+  //   link: "#",
+  // },
   {
-    text: "Medium",
-    link: "#",
-  },
-  {
-    text: "Linktree",
-    link: "#",
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/company/inf4mation",
   },
 ];
 
@@ -114,11 +126,11 @@ const helpList = [
   },
   {
     text: "Terms of Service",
-    link: "#",
+    link: "https://inf4mation.com/ico/terms",
   },
   {
     text: "Privacy",
-    link: "#",
+    link: "https://inf4mation.com/ico/privacy",
   },
   {
     text: "Code of Conduct",
@@ -126,14 +138,14 @@ const helpList = [
   },
   {
     text: "Support",
-    link: "#",
+    link: "http://t.me/iNf4mation_chat",
   },
   {
     text: "Report infringement",
-    link: "#",
+    link: "report@snifty.io",
   },
   {
     text: "Partnership enquiry ",
-    link: "#",
+    link: "partnerships@snifty.io",
   },
 ];
