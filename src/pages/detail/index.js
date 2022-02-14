@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Layout } from "../../compnents";
 import UserImage from "../../assets/images/user.jpg";
@@ -5,8 +6,9 @@ import { BsFillPatchCheckFill, BsFillShareFill, BsEye } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { AiOutlineDownload, AiOutlineHeart } from "react-icons/ai";
 import detailsImage from "../../assets/images/detail.jpeg";
-import Image1 from "../../assets/images/latestwork1.jpg";
-import Image3 from "../../assets/images/latestwork2.jpg";
+import Image3 from "../../assets/images/card1.png";
+import Image2 from "../../assets/images/card2.png";
+import Image1 from "../../assets/images/card3.png";
 import User from "../../assets/images/user.jpg";
 import TabComponent from "./components/TabComponent";
 import NftCard from "../../compnents/nftcard";
@@ -21,11 +23,7 @@ const Details = () => {
           <div className="grid md:grid-cols-12 mt-10 gap-x-12">
             {/* RIGHT */}
             <div className=" md:col-span-8">
-              <LazyLoadImage
-                src={detailsImage}
-                effect="blur"
-                className="w-full"
-              />
+              <LazyLoadImage src={Image2} effect="blur" className="w-full" />
               <div className="hidden md:block mt-40">
                 <h2 className="text-3xl font-serif font-thin ">
                   More by this artist

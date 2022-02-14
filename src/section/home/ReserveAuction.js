@@ -1,7 +1,7 @@
 import React from "react";
-import Image3 from "../../assets/images/latestwork1.jpg";
-import Image2 from "../../assets/images/latestwork2.jpg";
-import Image1 from "../../assets/images/latestwork3.jpg";
+import Image3 from "../../assets/images/card1.png";
+import Image2 from "../../assets/images/card2.png";
+import Image1 from "../../assets/images/card3.png";
 import User from "../../assets/images/user.jpg";
 import { NftCard } from "../../compnents";
 import { ButtonOutline } from "../../compnents/button";
