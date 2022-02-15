@@ -2,6 +2,9 @@ import React from "react";
 import Image3 from "../../assets/images/card1.png";
 import Image2 from "../../assets/images/card2.png";
 import Image1 from "../../assets/images/card3.png";
+import Image4 from "../../assets/images/dolphin4.png";
+import Image5 from "../../assets/images/dolphin5.png";
+import Image6 from "../../assets/images/dolphin6.png";
 import User from "../../assets/images/user.jpg";
 import { NftCard } from "../../compnents";
 import { ButtonOutline } from "../../compnents/button";
@@ -55,7 +58,7 @@ const cardList = [
     list: "1/10",
   },
   {
-    img: Image1,
+    img: Image4,
     title: "Severance",
     userImage: User,
     userName: "DarkenemOOd",
@@ -63,7 +66,7 @@ const cardList = [
     list: "1/1",
   },
   {
-    img: Image2,
+    img: Image5,
     title: "Distorted Purity",
     userImage: User,
     userName: "myitchyfinger",
@@ -71,7 +74,7 @@ const cardList = [
     list: "1/1",
   },
   {
-    img: Image3,
+    img: Image6,
     title: "NEO SHARK",
     userImage: User,
     userName: "VAMORBO",

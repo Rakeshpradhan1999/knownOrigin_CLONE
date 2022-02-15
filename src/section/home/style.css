@@ -12,6 +12,7 @@
     padding: 100px 0 150px 0;
   }
 }
+
 .banner-home:after,
 .latest-drops:after,
 .view-artwork:after,
@@ -24,7 +25,9 @@
   top: 0;
   left: 0;
 }
-
+.banner-home:after {
+  background-color: rgba(0, 0, 0, 0.4);
+}
 .card-img-wrapper img {
   object-fit: cover;
   width: 100%;
