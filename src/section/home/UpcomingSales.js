@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Image3 from "../../assets/images/card4.png";
 import Image2 from "../../assets/images/card5.png";
 import Image1 from "../../assets/images/card6.png";
@@ -7,6 +8,7 @@ import Image5 from "../../assets/images/dolphin2.png";
 import Image6 from "../../assets/images/dolphin3.png";
 import User from "../../assets/images/user.jpg";
 import { NftCard } from "../../compnents";
+import { ButtonOutline } from "../../compnents/button";
 const UpcomingSales = () => {
   return (
     <div className="section-space">
@@ -20,9 +22,9 @@ const UpcomingSales = () => {
           ))}
         </div>
         <div className="text-center mt-10">
-          <button className=" bg-transparent border border-blue-500 text-blue-500 rounded-md  py-2 px-4 ml-4">
-            View upcoming sales
-          </button>
+          <Link to="/marketplace">
+            <ButtonOutline>View Upcoming Sales</ButtonOutline>
+          </Link>
         </div>
       </div>
     </div>

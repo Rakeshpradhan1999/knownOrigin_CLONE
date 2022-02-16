@@ -1,13 +1,18 @@
 import "./App.css";
 import Home from "./pages/home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Details from "./pages/detail";
 import MarketPlace from "./pages/marketplace";
 import Profile from "./pages/profile";
 import Auction from "./pages/auction";
+import { useEffect } from "react";
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
-    <BrowserRouter>
+    <>
       <Routes>
         <Route index element={<Home />} />
         <Route path="details" element={<Details />} />
@@ -15,7 +20,7 @@ function App() {
         <Route path="profile" element={<Profile />} />
         <Route path="auction" element={<Auction />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 

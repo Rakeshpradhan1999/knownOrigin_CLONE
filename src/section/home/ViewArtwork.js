@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ButtonOutline } from "../../compnents/button";
 const ViewArtwork = () => {
   return (
     <div className="view-artwork">
@@ -6,9 +8,9 @@ const ViewArtwork = () => {
           bandanaboi <br />
           Let's drown together
         </h2>
-        <button className="border border-white px-4 py-2 mt-4 rounded-md">
-          View artworks
-        </button>
+        <Link to="/marketplace">
+          <ButtonOutline color="white">View artworks</ButtonOutline>
+        </Link>
       </div>
     </div>
   );

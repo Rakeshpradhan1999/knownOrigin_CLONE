@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonOutline } from "../../compnents/button";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className=" bg-dark-400 py-40">
@@ -22,7 +23,9 @@ const About = () => {
               digital collectibles, in the form of NFTs. Blockchain technology
               makes this new approach to digital ownership possible.
             </p>
-            <ButtonOutline color="white">Explore Nfts</ButtonOutline>
+            <Link to="/marketplace">
+              <ButtonOutline color="white">Explore Nfts</ButtonOutline>
+            </Link>
           </div>
         </div>
       </div>

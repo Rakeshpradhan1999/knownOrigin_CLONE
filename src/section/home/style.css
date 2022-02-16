@@ -1,6 +1,6 @@
 .banner-home {
   background-image: url(../../assets/images/banner.jpg);
-  background-position: top center;
+  background-position: left bottom;
   background-size: cover;
   position: relative;
   min-height: calc(100vh - 70px);
@@ -25,9 +25,9 @@
   top: 0;
   left: 0;
 }
-.banner-home:after {
+/* .banner-home:after {
   background-color: rgba(0, 0, 0, 0.4);
-}
+} */
 .card-img-wrapper img {
   object-fit: cover;
   width: 100%;

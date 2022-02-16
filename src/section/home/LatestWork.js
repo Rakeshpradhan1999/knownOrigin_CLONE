@@ -4,6 +4,8 @@ import Image2 from "../../assets/images/card2.png";
 import Image1 from "../../assets/images/card3.png";
 import User from "../../assets/images/user.jpg";
 import { NftCard } from "../../compnents";
+import { ButtonOutline } from "../../compnents/button";
+import { Link } from "react-router-dom";
 const LatestWork = () => {
   return (
     <div className="section-space">
@@ -17,9 +19,9 @@ const LatestWork = () => {
           ))}
         </div>
         <div className="text-center mt-10">
-          <button className=" bg-transparent border border-blue-500 text-blue-500 rounded-md  py-2 px-4 ml-4">
-            View marketplace
-          </button>
+          <Link to="/marketplace">
+            <ButtonOutline>View marketplace</ButtonOutline>
+          </Link>
         </div>
       </div>
     </div>

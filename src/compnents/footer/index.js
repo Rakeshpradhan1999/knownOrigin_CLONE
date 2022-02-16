@@ -55,7 +55,12 @@ const Footer = () => {
                 <ul>
                   {followList.map((val, i) => (
                     <li key={i}>
-                      <a href={val.link} className="font-light py-1.5 block">
+                      <a
+                        href={val.link}
+                        target={"_blank"}
+                        className="font-light py-1.5 block"
+                        rel="noreferrer"
+                      >
                         {val.text}
                       </a>
                     </li>
@@ -67,7 +72,22 @@ const Footer = () => {
                 <ul>
                   {helpList.map((val, i) => (
                     <li key={i}>
-                      <a href={val.link} className="font-light py-1.5 block">
+                      <a
+                        href={val.link}
+                        target={"_blank"}
+                        className="font-light py-1.5 block"
+                        rel="noreferrer"
+                      >
+                        {val.text}
+                      </a>
+                    </li>
+                  ))}
+                  {mailto.map((val, i) => (
+                    <li key={i}>
+                      <a
+                        href={`mailto:${val.link}`}
+                        className="font-light py-1.5 block"
+                      >
                         {val.text}
                       </a>
                     </li>
@@ -132,14 +152,14 @@ const helpList = [
     text: "Privacy",
     link: "https://inf4mation.com/ico/privacy",
   },
-  {
-    text: "Code of Conduct",
-    link: "#",
-  },
+
   {
     text: "Support",
     link: "http://t.me/iNf4mation_chat",
   },
+];
+
+const mailto = [
   {
     text: "Report infringement",
     link: "report@snifty.io",

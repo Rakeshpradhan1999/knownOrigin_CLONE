@@ -8,6 +8,7 @@ import Image6 from "../../assets/images/dolphin6.png";
 import User from "../../assets/images/user.jpg";
 import { NftCard } from "../../compnents";
 import { ButtonOutline } from "../../compnents/button";
+import { Link } from "react-router-dom";
 const ReserveAuction = () => {
   return (
     <div className="section-space">
@@ -23,7 +24,9 @@ const ReserveAuction = () => {
           ))}
         </div>
         <div className="text-center mt-10">
-          <ButtonOutline>View all 24hr reserve auctions</ButtonOutline>
+          <Link to="/auction">
+            <ButtonOutline>View all 24hr reserve auctions</ButtonOutline>
+          </Link>
         </div>
       </div>
     </div>
