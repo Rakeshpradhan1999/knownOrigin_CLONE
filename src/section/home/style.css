@@ -1,6 +1,6 @@
 .banner-home {
   background-image: url(../../assets/images/banner.jpg);
-  background-position: left bottom;
+  background-position: bottom bottom;
   background-size: cover;
   position: relative;
   min-height: calc(100vh - 70px);

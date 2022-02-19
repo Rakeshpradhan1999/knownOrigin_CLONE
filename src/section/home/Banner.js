@@ -14,7 +14,7 @@ const Banner = () => {
           <Link to="/marketplace">
             <ButtonOutline color="white"> View marketplace</ButtonOutline>
           </Link>
-          <p className="mt-4">Trivial N°4 by alberto seveso</p>
+          <p className="mt-4">Flame by Cheryl Gurner</p>
         </div>
       </div>
     </div>
