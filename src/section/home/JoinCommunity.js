@@ -25,8 +25,8 @@ const JoinCommunity = () => {
           </div>
           <div>
             <p className=" font-light mb-4">
-              Meet the Snifty team, artists and collectors for platform updates,
-              announcements, and more...
+              Join our community Meet the Snifty team, artists and collectors
+              for platform updates, announcements, and more...
             </p>
 
             <ButtonOutline color="dark">Launch discord</ButtonOutline>

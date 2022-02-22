@@ -8,7 +8,7 @@ import {
   ViewArtwork,
   ReserveAuction,
   About,
-  EmbeddedNfts,
+  // EmbeddedNfts,
   BecomeArtist,
   JoinCommunity,
 } from "../../section/home";
@@ -22,7 +22,7 @@ const Home = () => {
       <ViewArtwork />
       <ReserveAuction />
       <About />
-      <EmbeddedNfts />
+      {/* <EmbeddedNfts /> */}
       <BecomeArtist />
       <JoinCommunity />
     </Layout>

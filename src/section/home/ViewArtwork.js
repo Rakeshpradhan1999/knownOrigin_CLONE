@@ -5,8 +5,7 @@ const ViewArtwork = () => {
     <div className="view-artwork">
       <div className="container text-white relative z-20 pt-20 pb-60 md:pb-80">
         <h2 className=" text-5xl md:text-7xl font-serif font-light">
-          bandanaboi <br />
-          Let's drown together
+          Cheryl Gurner -<br /> Cold & Misty
         </h2>
         <Link to="/marketplace">
           <ButtonOutline color="white">View artworks</ButtonOutline>
