@@ -8,7 +8,7 @@ const JoinCommunity = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h3 className=" text-4xl md:text-5xl font-serif ">
-              Become an artist on Snifty{" "}
+              Join our community
               <p className="inline text-sm">
                 {" "}
                 (powered by{" "}
@@ -25,8 +25,8 @@ const JoinCommunity = () => {
           </div>
           <div>
             <p className=" font-light mb-4">
-              Join our community Meet the Snifty team, artists and collectors
-              for platform updates, announcements, and more...
+              Meet the snifty team, artists and collectors for platform updates,
+              announcements, and more...
             </p>
 
             <ButtonOutline color="dark">Launch discord</ButtonOutline>

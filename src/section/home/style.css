@@ -48,9 +48,11 @@
   background-repeat: no-repeat;
   position: relative;
 }
-
+.latest-drops {
+  background-position: center center;
+}
 .view-artwork {
-  background-image: url(../../assets/images/view-artwork-bg.png);
+  background-image: url(../../assets/images/Cold.jpg);
 }
 
 .embed-nfts {
