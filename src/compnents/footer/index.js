@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/logo.jpg";
 const Footer = () => {
   return (
     <div className=" bg-dark-600">
@@ -7,7 +7,7 @@ const Footer = () => {
           <div>
             <div>
               <div>
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="" className="w-14" />
               </div>
               <h5 className="font-serif font-light text-2xl mt-2">
                 Snifty{" "}
